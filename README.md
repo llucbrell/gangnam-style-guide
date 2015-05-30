@@ -9,6 +9,11 @@ This JavaScript coding style is a bit unconventional. It is not different for di
 
 Keep lines shorter than 80 characters. It's better for lines to be too short than to be too long. Break up long lists, objects, and other statements onto multiple lines.
 
+12345678901234567890123456789012345678901234567890123456789012345678901234567890
+1       10        20        30        40        50        60        70        80  
+
+gangnam-style!
+
 #Indentation
 
 Two-spaces. Tabs are better, but they look like hell in web browsers (and on GitHub), and node uses 2 spaces, so that's that.
