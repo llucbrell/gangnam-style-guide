@@ -29,13 +29,13 @@ Curly braces belong on the same line as the thing that necessitates them.
 
 <b>Bad:</b>
 
-function ()
-
-{
+      function ()
+      
+      {
 
 <b>Good:</b>
 
-function () {
+      function () {
 
 If a block needs to wrap to the next line, use a curly brace. Don't use it if it doesn't.
 
@@ -59,17 +59,27 @@ gangnam-style!
 If there is a list of things separated by commas, and it wraps across multiple lines, put the comma at the start of the next line, directly below the token that starts the list. Put the final token in the list on a line by itself. For example:
 
 
-   var magicWords = [ "abracadabra"
+      var magicWords = [ "abracadabra"
+   
                   , "gesundheit"
+                  
                   , "ventrilo"
+                  
                   ]
-   , spells = { "fireball" : function () { setOnFire() }
+      , spells = { "fireball" : function () { setOnFire() }
+   
               , "water" : function () { putOut() }
+              
               }
-   , a = 1
-   , b = "abc"
-   , etc
-   , somethingElse
+              
+      , a = 1
+   
+      , b = "abc"
+   
+      , etc
+   
+      , somethingElse
+   
 
 
 gangnam-style!
@@ -91,38 +101,40 @@ gangnam-style!
 
 <h2>Writting practices</h2>
 
-Use lowerCamelCase for multiword identifiers when they <b>refer to objects, functions, methods, properties, or anything not specified in this section.</b>
+Use <b>lowerCamelCase</b> for multiword identifiers when they <i>refer to objects, functions, methods, properties, or anything not specified in this section.</i>
 
-Use UpperCamelCase for class names (things that you'd pass to "new").
+Use <b>UpperCamelCase</b> for <i>class names</i> (things that you'd pass to "new").
 
-Use all-lower-hyphen-css-case for multiword filenames and config keys.
+Use <b>all-lower-hyphen-css-case</b> for multiword <i>filenames and config keys</i>.
 
 Use named functions. They make stack traces easier to follow.
 
-Use CAPS_SNAKE_CASE for constants, things that should never change and are rarely used.
+Use <b>CAPS_SNAKE_CASE</b> for <i>constants</i>, things that should never change and are rarely used.
 
-Use a single uppercase letter for function names where the function would normally be anonymous, but needs to call itself recursively. It makes it clear that it's a "throwaway" function.
+Use a <b>single uppercase letter</b> for function <i>names where the function would normally be anonymous, but needs to call itself recursively</i>. It makes it clear that it's a "throwaway" function.
 null, undefined, false, 0
-
-Boolean variables and functions should always be either true or false. Don't set it to 0 unless it's supposed to be a number.
-
-When something is intentionally missing or removed, set it to null.
-Allways use delete for removing objects.
-
-Don't set things to undefined. Reserve that value to mean "not yet set to anything."
 
 
 <h2>More</h2>
-Use named functions. They make stack traces a lot easier to read.
+
+*Boolean variables and functions should always be either true or false. Don't set it to 0 unless it's supposed to be a number.
+
+*When something is intentionally missing or removed, set it to null.
+
+*Allways use delete for removing objects.
+
+*Don't set things to undefined. Reserve that value to mean "not yet set to anything."
+
+*Use named functions. They make stack traces a lot easier to read.
 Callbacks, Sync/async Style
 
-Use the asynchronous/non-blocking versions of things as much as possible. 
+*Use the asynchronous/non-blocking versions of things as much as possible. 
 
-The callback should always be the last argument in the list. Its first argument is the Error or null.
+*The callback should always be the last argument in the list. Its first argument is the Error or null.
 
-Be very careful never to ever ever throw anything. It's worse than useless. Use the console to handle them.
+*Be very careful never to ever ever throw anything. It's worse than useless. Use the console to handle them.
 
-Boolean objects are verboten.
+*Boolean objects are verboten.
 
 
 gangnam-style!
