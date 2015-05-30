@@ -1,6 +1,6 @@
 # gangnam-style-guide
-Javascript Style guide based on npm funny style guide
 
+Starting to building my own JavaScript style guide starting with npm's as sketch.
 
 This JavaScript coding style is a bit unconventional. It is not different for difference's sake, but rather a carefully crafted style that is designed to reduce visual clutter and make bugs more apparent.
 
