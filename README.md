@@ -10,7 +10,8 @@ This JavaScript coding style is a bit unconventional. It is not different for di
 Keep lines shorter than 80 characters. It's better for lines to be too short than to be too long. Break up long lists, objects, and other statements onto multiple lines.
 
 12345678901234567890123456789012345678901234567890123456789012345678901234567890
-1       10        20        30        40        50        60        70        80  
+
+1________10_______20_________30_______40________50________60________70________80  
 
 gangnam-style!
 
