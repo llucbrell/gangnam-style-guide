@@ -2,7 +2,7 @@
 
 Starting to building my own JavaScript style guide starting with npm's as sketch.
 
-This JavaScript coding style is a bit unconventional. It is not different for difference's sake, but rather a carefully crafted style that is designed to reduce visual clutter and make bugs more apparent.
+This JavaScript coding style is a bit unconventional. It's for personal projects use. The objective is to incorporate it little by little in older projects and completely in newer ones.
 
 
 <h2>Line Length</h2>
@@ -102,6 +102,8 @@ gangnam-style!
 <h2>Writting practices</h2>
 
 Use <b>lowerCamelCase</b> for multiword identifiers when they <i>refer to objects, functions, methods, properties, or anything not specified in this section.</i>
+
+Use <b>_first_lower_case</b> for multiword local module variables inside closures.
 
 Use <b>UpperCamelCase</b> for <i>class names</i> (things that you'd pass to "new").
 
