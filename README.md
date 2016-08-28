@@ -1,6 +1,6 @@
 # gangnam-style-guide
 
-Starting to building my own JavaScript style guide and JSCS file configuration starting with npm's as sketch. I think that the best way to follow a style guide it's using a javascript linter software that force you to do it.
+Starting to building my own JavaScript style guide and JSCS file configuration from npm's as skaffold. I think that the best way to follow a style guide it's using a javascript linter software that force you to do it.
 
 This JavaScript coding style is a bit unconventional. It's for personal projects use. The objective is to incorporate it little by little in older projects and completely in newer ones.
 
