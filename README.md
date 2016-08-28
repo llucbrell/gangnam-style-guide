@@ -1,25 +1,25 @@
 # gangnam-style-guide
 
-Starting to building my own JavaScript style guide starting with npm's as sketch.
+Starting to building my own JavaScript style guide and JSCS file configuration starting with npm's as sketch. I think that the best way to follow a style guide it's using a javascript linter software that force you to do it.
 
 This JavaScript coding style is a bit unconventional. It's for personal projects use. The objective is to incorporate it little by little in older projects and completely in newer ones.
 
 
 <h2>Line Length</h2>
 
-Keep lines shorter than 80 characters. It's better for lines to be too short than to be too long. Break up long lists, objects, and other statements onto multiple lines.
+Keep code lines shorter than 80 characters. It's better for lines to be too short than to be too long. Break up long lists, objects, and other statements onto multiple lines. But jscs-configuration-file it's configured to 110 because of headers and footers that I usually insert in the files.
 
 12345678901234567890123456789012345678901234567890123456789012345678901234567890
 
-1________10_______20_________30_______40________50________60________70________80  
+1________10_______20_________30_______40________50________60________70________80
 
 gangnam-style!
 
 <h2>Indentation</h2>
 
-Two-spaces. Tabs are better, but they look like hell in web browsers (and on GitHub), and node uses 2 spaces, so that's that.
+One tab, that it's four-spaces, maybe it look like hell in some web browsers, but it's the default in sublime an other text editors, so that's that.
 
-Configure your editor appropriately.
+So you don't have to configure your editor appropriately.
 
 gangnam-style!
 
@@ -86,7 +86,7 @@ gangnam-style!
 
 <h2>Whitespace</h2>
 
-Put a single space in front of ( for anything other than a function call. Also use a single space wherever it makes things more readable.
+Put a single space in front of '(' for anything other than a function call. Also use a single space wherever it makes things more readable.
 
 Don't leave trailing whitespace at the end of lines. Don't indent empty lines. Don't use more spaces than are helpful.
 Functions
@@ -127,9 +127,6 @@ null, undefined, false, 0
 
 *Don't set things to undefined. Reserve that value to mean "not yet set to anything."
 
-*Use named functions. They make stack traces a lot easier to read.
-Callbacks, Sync/async Style
-
 *Use the asynchronous/non-blocking versions of things as much as possible. 
 
 *The callback should always be the last argument in the list. Its first argument is the Error or null.
@@ -138,5 +135,7 @@ Callbacks, Sync/async Style
 
 *Boolean objects are verboten.
 
+
+##Thangs for dancing..
 
 gangnam-style!
